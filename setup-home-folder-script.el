@@ -98,7 +98,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (defun tko-generate-home-folder-bash-script ()
-  "Creates buffer, generates homefolder script in folder based on
+  "Creates buffer, generates homefolder script current folder
   constants set on this page"
   (let ((retval ""))
     (dolist
